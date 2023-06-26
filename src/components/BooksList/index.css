@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,500;1,700&display=swap');
+
+.books-list-main-container {
+    width: 100vw;
+    min-height: 90vh;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.search-container {
+    width: 400px;
+    border-radius: 30px;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 18px;
+    width: 350px;
+}
+
+.books-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 40px;
+    width: 100%;
+    padding: 50px;
+    position: relative;
+    top: 25px;
+    overflow: auto;
+}
+
+.book {
+    list-style-type: none;
+    height: 320px;
+    width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 14px;
+    box-sizing: border-box;
+}
+
+.book-image-container {
+    border-radius: 10px;
+    padding: 8px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-image {
+    height: 160px;
+    width: auto;
+}
+
+.book-title {
+    font-size: 16px;
+    font-family: DM Sans;
+    font-family: DM Sans;
+    text-align: center;
+    margin: 8px 0;
+}
+
+.book-description {
+    font-family: DM Sans;
+    text-align: center;
+    font-weight: bold;
+}
+
+.add-to-cart-button-container {
+    display: flex;
+    justify-content: center;
+    margin: 8px 0;
+}
+
+.add-to-cart-button {
+    text-align: center;
+    background-color: rgb(175, 27, 27);
+    color: #ffffff;
+}

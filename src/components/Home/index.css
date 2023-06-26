@@ -1,0 +1,55 @@
+.home {
+    margin-top: 69px;
+    height: 90vh;
+    width: 100vw;
+    background-image: url('https://res.cloudinary.com/dxelyw0qx/image/upload/v1687681635/bookstore_uitvs2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 0;
+}
+
+.popup {
+    height: 270px;
+    width: 480px;
+    position: absolute;
+    inset: 38% 37%;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 12px;
+}
+
+.popup-close {
+    display: flex;
+    justify-content: end;
+}
+
+.close-button {
+    background-color: transparent;
+}
+
+.popup-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+.book-logo {
+    height: 70px;
+    width: auto;
+}
+
+.popup-heading {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.popup-description {
+    font-size: 18px;
+}
+
+.shopping-button {
+    outline: none;
+    background-color: rgb(233, 82, 18);
+    color: #ffffff;
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,500;1,700&display=swap');
+
+.nav-bar {
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.nav-bar-options-list {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.nav-bar-option {
+    list-style-type: none;
+    color: #ffffff;
+    font-family: DM Sans;
+    font-weight: bold;
+}
